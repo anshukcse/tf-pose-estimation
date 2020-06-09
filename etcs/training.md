@@ -18,7 +18,7 @@ $ python3 setup.py build_ext install
 
 CMU Perceptual Computing Lab has modified Caffe to provide data augmentation. See : https://github.com/CMU-Perceptual-Computing-Lab/caffe_train
 
-I implemented the augmentation codes as the way of the original version, See [pose_dataset.py](pose_dataset.py) and [pose_augment.py](pose_augment.py). This includes scaling, rotation, flip, cropping.
+I implemented the augmentation codes as the way of the original version, See [pose_dataset.py](../tf_pose/pose_dataset.py) and [pose_augment.py](../tf_pose/pose_augment.py). This includes scaling, rotation, flip, cropping.
 
 This process can be a bottleneck for training, so if you have enough computing resources, please see [Run for Faster Training]() Section
 
